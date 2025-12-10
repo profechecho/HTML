@@ -11,20 +11,24 @@ body {
     color: #333;
 }
 
-/* ----- NAVEGACIÓN ----- */
+/* ----- HEADER ----- */
 header {
     background-color: #1e88e5;
-    padding: 15px 0;
+    padding: 15px 20px;
+    text-align: center; /* Centra todo dentro del header */
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 30px;
+/* ----- MENÚ DE NAVEGACIÓN ----- */
+header nav ul {
+    list-style: none;           /* Quita viñetas */
+    display: flex;               /* Coloca los enlaces en fila */
+    justify-content: center;     /* Centra horizontalmente */
+    gap: 30px;                   /* Espacio entre enlaces */
+    padding-left: 0;             /* Quita padding por defecto */
+    margin: 0 0 15px 0;          /* Espacio debajo del menú */
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -32,16 +36,27 @@ nav a {
     transition: 0.3s;
 }
 
-nav a:hover {
+header nav a:hover {
     background-color: #1565c0;
     border-radius: 5px;
 }
 
-/* Página activa */
-nav a.activo {
+header nav a.activo {
     background-color: #fbc02d;
     color: black;
     border-radius: 5px;
+}
+
+
+
+
+/* ----- LOGO DEBAJO DEL MENÚ ----- */
+.logo-container img {
+    height: 80px;        /* Tamaño recomendado del logo */
+    width: auto;          /* Mantiene proporción */
+    object-fit: contain;  
+    display: block;       /* Hace que el logo sea un bloque */
+    margin: 0 auto;       /* Centra horizontalmente */
 }
 
 /* ----- PIE DE PÁGINA ----- */
