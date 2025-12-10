@@ -202,24 +202,3 @@ footer .redes img { width:30px; margin:0 10px; }
 footer a { color:#4fa3ff; text-decoration:none; }
 footer a:hover { text-decoration:underline; }
 
-/* IMÁGENES LATERALES FIJAS */
-.lateral-img {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 750px;        /* Mantiene proporción */
-    height: 50%;        /* Altura relativa a la ventana */
-    max-height: 800px;  /* Limita que no se haga gigante */
-    opacity: 1;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    z-index: 10;
-    pointer-events: none;
-}
-
-.lateral-img:hover {
-    transform: translateY(-50%) scale(1.2);
-    opacity: 1;
-}
-
-.lateral-left { left: -20px; }
-.lateral-right { right: -20px; }
