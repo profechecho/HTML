@@ -63,6 +63,20 @@ header nav a.activo { background:#2196f3; color:black; border-radius:5px; }
     display: inline-block;
 }
 
+/* --- Ajustar tamaño uniforme de tarjetas e imágenes --- */
+
+.producto-card {
+    height: 380px; /* Ajusta a tu gusto */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.producto-card img {
+    height: 300px;       /* Todas iguales */
+    object-fit: cover;   /* Recorta sin deformar */
+}
+
 /* Hover efecto */
 .producto-card:hover {
     transform: translateY(-5px);
