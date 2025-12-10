@@ -13,18 +13,18 @@ header nav ul {
     list-style:none; display:flex; justify-content:center; gap:30px; margin-bottom:15px; padding-left:0;
 }
 header nav a {
-    text-decoration:none; color:#c0c0c0; font-size:18px; padding:8px 15px; transition:.3s;
+    text-decoration:none; color:#c0c0c0; font-size:30px; padding:8px 15px; transition:.3s;
 }
 header nav a:hover { background:#4fa3ff; color:black; border-radius:5px; }
 header nav a.activo { background:#2196f3; color:black; border-radius:5px; }
 
 /* LOGO */
-.logo-container img { height:80px; width:auto; display:block; margin:0 auto; }
+.logo-container img { height:200px; width:auto; display:block; margin:0 auto; }
 
 /* SECCIONES */
 .seccion { padding:40px 20px; text-align:center; }
-.seccion h1, .seccion h2 { color:#4fa3ff; margin-bottom:15px; }
-.seccion p { color:#c0c0c0; max-width:800px; margin:0 auto 20px auto; }
+.seccion h1, .seccion h2 { color:#4fa3ff; margin-bottom:15px; font-size:40px;}
+.seccion p { color:#c0c0c0; max-width:800px; margin:0 auto 20px auto; font-size:25px;}
 
 /* GRID PRODUCTOS */
 .productos-grid {
@@ -66,7 +66,7 @@ header nav a.activo { background:#2196f3; color:black; border-radius:5px; }
 /* --- Ajustar tamaño uniforme de tarjetas e imágenes --- */
 
 .producto-card {
-    height: 380px; /* Ajusta a tu gusto */
+    height: auto; /* Ajusta a tu gusto */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,10 +108,10 @@ form {
     background:#151a26; padding:25px; border-radius:10px;
     max-width:600px; margin:30px auto; color:#c0c0c0;
 }
-form label { font-weight:bold; }
+form label { font-weight:bold; font-size:22px;}
 form input, form textarea {
     width:100%; padding:10px; margin:5px 0 15px 0;
-    border-radius:5px; border:1px solid #23304f; background:#10131a; color:#c0c0c0;
+    border-radius:5px; border:1px solid #23304f; background:#10131a; color:#c0c0c0; font-size:20px;
 }
 form input:focus, form textarea:focus { border-color:#4fa3ff; outline:none; }
 button {
@@ -120,7 +120,7 @@ button {
 button:hover { background:#4fa3ff; color:black; }
 
 /* FOOTER */
-footer { background:#151a26; color:#c0c0c0; text-align:center; padding:20px; margin-top:50px; }
+footer { background:#151a26; color:#c0c0c0; text-align:center; padding:20px; margin-top:50px;  font-size:20px; }
 footer .redes img { width:30px; margin:0 10px; }
 footer a { color:#4fa3ff; text-decoration:none; }
 footer a:hover { text-decoration:underline; }
