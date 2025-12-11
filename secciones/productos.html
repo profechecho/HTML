@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>ElectroRubí - Productos</title>
-<link rel="stylesheet" href="../css/estilos.css">
-<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icono/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <title>ElectroRubí - Productos</title>
+
+    <!-- ===========================
+         HOJA DE ESTILOS Y FAVICON
+         =========================== -->
+    <link rel="stylesheet" href="../css/estilos.css"> <!-- CSS principal -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/icono/favicon-32x32.png"> <!-- Icono del sitio -->
 </head>
 <body>
     
+<!-- ===========================
+     HEADER / ENCABEZADO
+     =========================== -->
 <header>
-<nav class="menu">
-    <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="productos.html" class="activo">Productos</a></li>
-        <li><a href="presupuesto.html">Presupuesto</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</nav>
-<div class="logo-container"><img src="../assets/images/logo.png" alt="Logo ElectroRubí"></div>
+    <!-- Menú de navegación -->
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="productos.html" class="activo">Productos</a></li> <!-- Página actual -->
+            <li><a href="presupuesto.html">Presupuesto</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Logo de la empresa -->
+    <div class="logo-container">
+        <img src="../assets/images/logo.png" alt="Logo ElectroRubí">
+    </div>
 </header>
 
+<!-- ===========================
+     SECCIÓN DE PRODUCTOS
+     =========================== -->
 <section class="seccion">
     <h1>Nuestros Productos</h1>
+
+    <!-- Contenedor de tarjetas de productos -->
     <div class="productos-grid">
+        <!-- Cada tarjeta representa un producto -->
         <!-- Producto 1 -->
         <div class="producto-card">
             <img src="../assets/images/producto1.jpg" alt="Resistencia 220 Ohm">
@@ -138,15 +156,22 @@
     </div>
 </section>
 
-
+<!-- ===========================
+     FOOTER / PIE DE PÁGINA
+     =========================== -->
 <footer>
-<div class="redes">
-    <a href="#"><img src="../assets/images/redes/facebook.png" alt="Facebook"></a>
-    <a href="#"><img src="../assets/images/redes/twitter.png" alt="Twitter"></a>
-    <a href="#"><img src="../assets/images/redes/instagram.png" alt="Instagram"></a>
-</div>
-<p>Calle Sant Jordi, Rubí, Barcelona - 08191</p>
-<p><a href="aviso-legal.html">Aviso legal</a></p>
+    <!-- Redes sociales -->
+    <div class="redes">
+        <a href="#"><img src="../assets/images/redes/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="../assets/images/redes/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="../assets/images/redes/instagram.png" alt="Instagram"></a>
+    </div>
+
+    <!-- Dirección -->
+    <p>Calle Sant Jordi, Rubí, Barcelona - 08191</p>
+
+    <!-- Enlace al aviso legal -->
+    <p><a href="aviso-legal.html">Aviso legal</a></p>
 </footer>
 
 </body>
